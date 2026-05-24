@@ -74,28 +74,38 @@
     return stored.count;
   }
 
-  function formatCount(n) {
-    return new Intl.NumberFormat("pl-PL").format(n);
+  /** Zaokrąglenie w dół do pełnej setki — wyświetlanie np. 1100+, 1200+ */
+  function roundDownToHundred(n) {
+    return Math.floor(n / 100) * 100;
   }
 
-  function animateTrustCounter(el, target) {
+  function formatTrustDisplay(n) {
+    const rounded = roundDownToHundred(n);
+    return new Intl.NumberFormat("pl-PL").format(rounded) + "+";
+  }
+
+  function animateTrustCounter(el, rawCount) {
     if (!el) return;
+    const target = roundDownToHundred(rawCount);
+    const display = formatTrustDisplay(rawCount);
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (prefersReduced) {
-      el.textContent = formatCount(target);
+
+    if (prefersReduced || target === 0) {
+      el.textContent = display;
       return;
     }
-    const duration = 900;
+
+    const duration = 700;
     const start = performance.now();
-    const from = Math.max(0, target - 40);
+    const from = Math.max(0, target - 200);
 
     function frame(now) {
       const t = Math.min(1, (now - start) / duration);
       const eased = 1 - Math.pow(1 - t, 3);
       const value = Math.round(from + (target - from) * eased);
-      el.textContent = formatCount(value);
+      el.textContent = new Intl.NumberFormat("pl-PL").format(value) + "+";
       if (t < 1) requestAnimationFrame(frame);
-      else el.textContent = formatCount(target);
+      else el.textContent = display;
     }
     requestAnimationFrame(frame);
   }
@@ -103,7 +113,10 @@
   if (trustOrdersEl) {
     const count = getOrdersCount();
     animateTrustCounter(trustOrdersEl, count);
-    trustOrdersEl.setAttribute("title", "Szacunkowa liczba zleceń od 1994 roku");
+    trustOrdersEl.setAttribute(
+      "title",
+      "Szacunkowo ponad " + formatTrustDisplay(count).replace("+", "") + " zleceń od 1994 roku"
+    );
   }
 
   /* —— Sticky CTA (mobile) —— */

@@ -157,10 +157,10 @@ ul {
 }
 
 .logo-img {
-  height: 52px;
-  width: auto;
-  max-width: min(200px, 45vw);
+  width: 48px;
+  height: 48px;
   object-fit: contain;
+  border-radius: 6px;
 }
 
 .site-nav ul {
@@ -1057,7 +1057,8 @@ textarea.invalid {
   }
 
   .logo-img {
-    height: 44px;
+    width: 42px;
+    height: 42px;
   }
 
   .nav-toggle {
