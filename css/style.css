@@ -708,21 +708,6 @@ ul {
   color: var(--graphite-soft);
 }
 
-.reviews-disclaimer {
-  margin: 1rem 0 0;
-  font-size: 0.8rem;
-  color: var(--graphite-soft);
-  text-align: center;
-  opacity: 0.85;
-}
-
-.reviews-disclaimer code {
-  font-size: 0.75rem;
-  background: rgba(255, 255, 255, 0.6);
-  padding: 0.1rem 0.35rem;
-  border-radius: 4px;
-}
-
 @media (min-width: 768px) {
   .reviews-slide {
     flex: 0 0 calc((100% - 2.5rem) / 3);

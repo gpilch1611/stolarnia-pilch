@@ -1,402 +1,402 @@
 window.STOLARNIA_REVIEWS = [
   {
-    "text": "Pan Pilch wykonał u nas okna drewniane. Termin dotrzymany, jak ustaliliśmy. Bez zbędnej reklamy — po prostu dobra robota.",
+    "text": "Potrzebowaliśmy półki na wymiar — pan Pilch poradził i zrobił solidnie. Bez pośpiechu, ale z sensem. Na pewno wrócę przy kolejnym zleceniu.",
     "author": "— Klientka z Borzęty"
   },
   {
-    "text": "Korzystaliśmy ze stolarni przy okna w domu jednorodzinnym. Można zadzwonić i dopytać bez problemu. Na pewno wrócę przy kolejnym zleceniu.",
+    "text": "Zgłosiliśmy się do pana Pilcha przy wymianie ościeżnic. Można zadzwonić i dopytać bez problemu. Współpraca przebiegła spokojnie od początku do końca.",
     "author": "— Klientka z Głogoczowa"
   },
   {
-    "text": "Prosiłem o drzwi drewniane — wyszło solidnie. Kontakt spokojny, bez pośpiechu. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Szukaliśmy kogoś do witrynę drewnianą — trafiliśmy dobrze. Widać, że robi to od lat. Polecam sąsiadom.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Szukaliśmy kogoś do prace stolarskie na zamówienie — trafiliśmy dobrze. Można zadzwonić i dopytać bez problemu. Taką stolarnię warto mieć blisko.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Potrzebowaliśmy stolarkę okienną w starym domu. Termin dotrzymany, jak ustaliliśmy. Polecam sąsiadom.",
-    "author": "— Zleceniodawca z Pcimia"
-  },
-  {
-    "text": "Prosiłem o szafkę kuchenną z drewna — wyszło solidnie. Termin dotrzymany, jak ustaliliśmy. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Zleciłem okna w domu jednorodzinnym i jestem zadowolony. Wszystko omówione na miejscu w warsztacie. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Głogoczowa"
-  },
-  {
-    "text": "Zleciłem parapety drewniane i jestem zadowolony. Widać, że robi to od lat. Jestem zadowolony z efektu.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Potrzebowaliśmy półki na wymiar w starym domu. Wszystko omówione na miejscu w warsztacie. Taką stolarnię warto mieć blisko.",
-    "author": "— Zleceniodawca z Zarabia"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy prace stolarskie na zamówienie. Widać, że robi to od lat. Warto było poczekać na termin.",
-    "author": "— Klientka z Głogoczowa"
-  },
-  {
-    "text": "Szukaliśmy kogoś do drzwi wewnętrzne — trafiliśmy dobrze. Kontakt spokojny, bez pośpiechu. Bez zbędnej reklamy — po prostu dobra robota.",
+    "text": "Zamawiałem u pana Pilcha prace stolarskie na zamówienie. Wszystko omówiliśmy na miejscu w warsztacie. Na pewno wrócę przy kolejnym zleceniu.",
     "author": "— Zleceniodawczyni z Myślenic"
   },
   {
-    "text": "Pan Pilch wykonał u nas naprawę drzwi. Wszystko omówione na miejscu w warsztacie. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Potrzebowaliśmy prace stolarskie na zamówienie w starym domu. Cena uczciwa jak na rozmowę. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Sieprawa"
-  },
-  {
-    "text": "Zleciłem naprawę okien i jestem zadowolony. Termin dotrzymany, jak ustaliliśmy. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Wróblowic"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy półki na wymiar. Wymiary trafiły za pierwszym razem. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Dębnego"
-  },
-  {
-    "text": "Prosiłem o drobne wyroby drewniane — wyszło solidnie. Można zadzwonić i dopytać bez problemu. Bez zbędnej reklamy — po prostu dobra robota.",
+    "text": "Zgłosiliśmy się do pana Pilcha przy wymianie okien drewnianych. Bez pośpiechu, ale z sensem. Współpraca przebiegła spokojnie od początku do końca.",
     "author": "— Klient z Trzebuni"
   },
   {
-    "text": "Zamawiałem u pana Pilcha naprawę drzwi. Kontakt spokojny, bez pośpiechu. Warto było poczekać na termin.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy drzwi wewnętrzne. Wymiary trafiły za pierwszym razem. Warto było poczekać na termin.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Potrzebowaliśmy schody drewniane — fragment w starym domu. Detale wykończone starannie. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy naprawę drzwi. Można zadzwonić i dopytać bez problemu. Jestem zadowolony z efektu.",
-    "author": "— Klientka z Głogoczowa"
-  },
-  {
-    "text": "Prosiłem o stolarkę okienną — wyszło solidnie. Montaż poszedł sprawnie. Warto było poczekać na termin.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy witrynę drewnianą. Detale wykończone starannie. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas deski do krojenia. Doradził przy doborze drewna. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Wróblowic"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas schody drewniane — fragment. Montaż poszedł sprawnie. Spokojna współpraca od początku do końca.",
+    "text": "Pan Pilch wykonał u nas parapety drewniane. Cena była uczciwa jak na rozmowę. Dobrze mieć taką stolarnię blisko domu.",
     "author": "— Klient z Jawornika"
   },
   {
-    "text": "Polecili nam pana Pilcha przy półki na wymiar. Kontakt spokojny, bez pośpiechu. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy prace stolarskie na zamówienie. Cena uczciwa jak na rozmowę. Na pewno wrócę przy kolejnym zleceniu.",
+    "text": "Szukaliśmy fachowca do szafkę kuchenną z drewna — trafiliśmy do pana Pilcha. Wszystko omówiliśmy na miejscu w warsztacie. Jestem zadowolony z efektu.",
     "author": "— Zleceniodawczyni z Myślenic"
   },
   {
-    "text": "Prosiłem o elementy ze sklejki — wyszło solidnie. Detale wykończone starannie. Polecam sąsiadom.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy witrynę drewnianą. Wszystko omówione na miejscu w warsztacie. Jestem zadowolony z efektu.",
-    "author": "— Klient z Jawornika"
-  },
-  {
-    "text": "Szukaliśmy kogoś do deski do krojenia — trafiliśmy dobrze. Cena uczciwa jak na rozmowę. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha wymianę ościeżnic. Cena uczciwa jak na rozmowę. Spokojna współpraca od początku do końca.",
+    "text": "Szukaliśmy fachowca do regulację skrzydła okna — trafiliśmy do pana Pilcha. Pan Pilch tłumaczy spokojnie, co i jak. Jestem zadowolony z efektu.",
     "author": "— Klient z Myślenic"
   },
   {
-    "text": "Pan Pilch wykonał u nas parapety drewniane. Termin dotrzymany, jak ustaliliśmy. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Szukaliśmy kogoś do stolarkę okienną — trafiliśmy dobrze. Wszystko omówione na miejscu w warsztacie. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klientka z Myślenic"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas półki na wymiar. Doradził przy doborze drewna. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klientka z Myślenic"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy drobne wyroby drewniane. Można zadzwonić i dopytać bez problemu. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Szukaliśmy kogoś do listwy i opaski — trafiliśmy dobrze. Montaż poszedł sprawnie. Warto było poczekać na termin.",
-    "author": "— Klient z Dębnego"
-  },
-  {
-    "text": "Potrzebowaliśmy okna w domu jednorodzinnym w starym domu. Wymiary trafiły za pierwszym razem. Bez zbędnej reklamy — po prostu dobra robota.",
+    "text": "Zgłosiliśmy się do pana Pilcha przy zleceniu na elementy ze sklejki. Detale są wykończone starannie. Dobrze mieć taką stolarnię blisko domu.",
     "author": "— Zleceniodawca z Zarabia"
   },
   {
-    "text": "Zleciłem okna drewniane i jestem zadowolony. Widać, że robi to od lat. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klientka z Głogoczowa"
-  },
-  {
-    "text": "Szukaliśmy kogoś do okna drewniane — trafiliśmy dobrze. Wszystko omówione na miejscu w warsztacie. Polecam sąsiadom.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas drzwi drewniane. Cena uczciwa jak na rozmowę. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Jawornika"
-  },
-  {
-    "text": "Szukaliśmy kogoś do drobne wyroby drewniane — trafiliśmy dobrze. Detale wykończone starannie. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy stolarkę okienną. Widać, że robi to od lat. Spokojna współpraca od początku do końca.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Potrzebowaliśmy zabudowę w kuchni w starym domu. Wymiary trafiły za pierwszym razem. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Głogoczowa"
-  },
-  {
-    "text": "Prosiłem o parapety drewniane — wyszło solidnie. Montaż poszedł sprawnie. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Dębnego"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha prace stolarskie na zamówienie. Wszystko omówione na miejscu w warsztacie. Polecam sąsiadom.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Zleciłem okna w domu jednorodzinnym i jestem zadowolony. Wymiary trafiły za pierwszym razem. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Potrzebowaliśmy deski do krojenia w starym domu. Montaż poszedł sprawnie. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Potrzebowaliśmy naprawę drzwi w starym domu. Wszystko omówione na miejscu w warsztacie. Spokojna współpraca od początku do końca.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas drzwi drewniane. Można zadzwonić i dopytać bez problemu. Polecam sąsiadom.",
-    "author": "— Zleceniodawca z Zarabia"
-  },
-  {
-    "text": "Szukaliśmy kogoś do elementy ze sklejki — trafiliśmy dobrze. Montaż poszedł sprawnie. Spokojna współpraca od początku do końca.",
-    "author": "— Klientka z Myślenic"
-  },
-  {
-    "text": "Szukaliśmy kogoś do schody drewniane — fragment — trafiliśmy dobrze. Kontakt spokojny, bez pośpiechu. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha schody drewniane — fragment. Termin dotrzymany, jak ustaliliśmy. Spokojna współpraca od początku do końca.",
-    "author": "— Zleceniodawczyni z Myślenic"
-  },
-  {
-    "text": "Prosiłem o półki na wymiar — wyszło solidnie. Detale wykończone starannie. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy naprawę okien. Kontakt spokojny, bez pośpiechu. Polecam sąsiadom.",
-    "author": "— Klient z Trzebuni"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha drzwi drewniane. Widać, że robi to od lat. Spokojna współpraca od początku do końca.",
-    "author": "— Klient z Jawornika"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy drzwi drewniane. Można zadzwonić i dopytać bez problemu. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Zleceniodawca z Pcimia"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas wymianę ościeżnic. Wszystko omówione na miejscu w warsztacie. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas stolarkę okienną. Wymiary trafiły za pierwszym razem. Polecam sąsiadom.",
-    "author": "— Klient z Wróblowic"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas zabudowę w kuchni. Widać, że robi to od lat. Warto było poczekać na termin.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Szukaliśmy kogoś do szafkę kuchenną z drewna — trafiliśmy dobrze. Wymiary trafiły za pierwszym razem. Jestem zadowolony z efektu.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy prace stolarskie na zamówienie. Termin dotrzymany, jak ustaliliśmy. Spokojna współpraca od początku do końca.",
-    "author": "— Klient z Trzebuni"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas okna drewniane. Detale wykończone starannie. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Zleceniodawca z Zarabia"
-  },
-  {
-    "text": "Szukaliśmy kogoś do witrynę drewnianą — trafiliśmy dobrze. Termin dotrzymany, jak ustaliliśmy. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Sieprawa"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas naprawę drzwi. Cena uczciwa jak na rozmowę. Jestem zadowolony z efektu.",
-    "author": "— Zleceniodawca z Pcimia"
-  },
-  {
-    "text": "Potrzebowaliśmy półki na wymiar w starym domu. Termin dotrzymany, jak ustaliliśmy. Polecam sąsiadom.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy okna w domu jednorodzinnym. Doradził przy doborze drewna. Jestem zadowolony z efektu.",
-    "author": "— Klient z Głogoczowa"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas półki na wymiar. Doradził przy doborze drewna. Jestem zadowolony z efektu.",
-    "author": "— Zleceniodawczyni z Myślenic"
-  },
-  {
-    "text": "Potrzebowaliśmy drobne wyroby drewniane w starym domu. Kontakt spokojny, bez pośpiechu. Na pewno wrócę przy kolejnym zleceniu.",
+    "text": "Potrzebowaliśmy stolarkę okienną — pan Pilch poradził i zrobił solidnie. Detale są wykończone starannie. Na pewno wrócę przy kolejnym zleceniu.",
     "author": "— Zleceniodawca z Borzęty"
   },
   {
-    "text": "Polecili nam pana Pilcha przy drzwi drewniane. Kontakt spokojny, bez pośpiechu. Warto było poczekać na termin.",
+    "text": "Polecili nam pana Pilcha w sprawie moskitierę do okna drewnianego. Widać wieloletnie doświadczenie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy drobnych pracach stolarskich. Widać wieloletnie doświadczenie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha wymianę ościeżnic. Wymiary były trafione za pierwszym razem. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klientka z Borzęty"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wymianie ościeżnic. Montaż przebiegł sprawnie. Współpraca przebiegła spokojnie od początku do końca.",
     "author": "— Klientka z okolic Myślenic"
   },
   {
-    "text": "Polecili nam pana Pilcha przy elementy ze sklejki. Detale wykończone starannie. Taką stolarnię warto mieć blisko.",
-    "author": "— Zleceniodawca z Zawady"
+    "text": "Zamawialiśmy u pana Pilcha moskitierę do okna drewnianego. Wszystko omówiliśmy na miejscu w warsztacie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klientka z Myślenic"
   },
   {
-    "text": "Zamawiałem u pana Pilcha okna w domu jednorodzinnym. Wszystko omówione na miejscu w warsztacie. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Zleceniodawca z Zawady"
+    "text": "Potrzebowaliśmy drobne wyroby drewniane — pan Pilch poradził i zrobił solidnie. Można zadzwonić i dopytać bez problemu. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Zleceniodawczyni z Myślenic"
   },
   {
-    "text": "Zamawiałem u pana Pilcha parapety drewniane. Widać, że robi to od lat. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Zleceniodawca z Borzęty"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy drzwi drewniane. Termin dotrzymany, jak ustaliliśmy. Warto było poczekać na termin.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Zleciłem naprawę okien i jestem zadowolony. Wymiary trafiły za pierwszym razem. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Sieprawa"
-  },
-  {
-    "text": "Prosiłem o wymianę ościeżnic — wyszło solidnie. Doradził przy doborze drewna. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Zleceniodawca z Pcimia"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy zabudowę w kuchni. Kontakt spokojny, bez pośpiechu. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Trzebuni"
-  },
-  {
-    "text": "Prosiłem o naprawę drzwi — wyszło solidnie. Termin dotrzymany, jak ustaliliśmy. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Głogoczowa"
-  },
-  {
-    "text": "Prosiłem o drzwi drewniane — wyszło solidnie. Detale wykończone starannie. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Potrzebowaliśmy parapety drewniane w starym domu. Termin dotrzymany, jak ustaliliśmy. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha naprawę okien. Montaż poszedł sprawnie. Warto było poczekać na termin.",
-    "author": "— Klient z Tokarni"
-  },
-  {
-    "text": "Pan Pilch wykonał u nas drobne wyroby drewniane. Cena uczciwa jak na rozmowę. Taką stolarnię warto mieć blisko.",
-    "author": "— Zleceniodawca z Zawady"
-  },
-  {
-    "text": "Zleciłem okna drewniane i jestem zadowolony. Wszystko omówione na miejscu w warsztacie. Jestem zadowolony z efektu.",
-    "author": "— Zleceniodawca z Pcimia"
-  },
-  {
-    "text": "Polecili nam pana Pilcha przy drzwi drewniane. Wszystko omówione na miejscu w warsztacie. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Sieprawa"
-  },
-  {
-    "text": "Zleciłem zabudowę w kuchni i jestem zadowolony. Widać, że robi to od lat. Na pewno wrócę przy kolejnym zleceniu.",
+    "text": "Szukaliśmy fachowca do półki na wymiar — trafiliśmy do pana Pilcha. Pan Pilch tłumaczy spokojnie, co i jak. Współpraca przebiegła spokojnie od początku do końca.",
     "author": "— Klientka z Raciechowic"
   },
   {
-    "text": "Szukaliśmy kogoś do drobne wyroby drewniane — trafiliśmy dobrze. Kontakt spokojny, bez pośpiechu. Taką stolarnię warto mieć blisko.",
-    "author": "— Klient z Myślenic"
-  },
-  {
-    "text": "Szukaliśmy kogoś do parapety drewniane — trafiliśmy dobrze. Montaż poszedł sprawnie. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Klient z Trzebuni"
-  },
-  {
-    "text": "Zleciłem okna w domu jednorodzinnym i jestem zadowolony. Termin dotrzymany, jak ustaliliśmy. Jestem zadowolony z efektu.",
-    "author": "— Zleceniodawca z Borzęty"
-  },
-  {
-    "text": "Zleciłem schody drewniane — fragment i jestem zadowolony. Termin dotrzymany, jak ustaliliśmy. Dla mnie sprawdzony fachowiec z okolicy.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Prosiłem o schody drewniane — fragment — wyszło solidnie. Doradził przy doborze drewna. Jestem zadowolony z efektu.",
-    "author": "— Klientka z Raciechowic"
-  },
-  {
-    "text": "Zamawiałem u pana Pilcha listwy i opaski. Termin dotrzymany, jak ustaliliśmy. Bez zbędnej reklamy — po prostu dobra robota.",
-    "author": "— Zleceniodawca z Borzęty"
-  },
-  {
-    "text": "Zleciłem drzwi do szafy i jestem zadowolony. Detale wykończone starannie. Spokojna współpraca od początku do końca.",
-    "author": "— Klient z Słomczyna"
-  },
-  {
-    "text": "Potrzebowaliśmy elementy ze sklejki w starym domu. Wszystko omówione na miejscu w warsztacie. Jestem zadowolony z efektu.",
-    "author": "— Klient z Jawornika"
-  },
-  {
-    "text": "Zleciłem drzwi wewnętrzne i jestem zadowolony. Wymiary trafiły za pierwszym razem. Jestem zadowolony z efektu.",
+    "text": "Pan Pilch wykonał u nas opaski okienne. Termin został dotrzymany. Polecam sąsiadom.",
     "author": "— Klientka z Borzęty"
   },
   {
-    "text": "Szukaliśmy kogoś do deski do krojenia — trafiliśmy dobrze. Kontakt spokojny, bez pośpiechu. Polecam sąsiadom.",
-    "author": "— Klientka z Borzęty"
+    "text": "Potrzebowaliśmy okna w domu letniskowym — pan Pilch poradził i zrobił solidnie. Można zadzwonić i dopytać bez problemu. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klient z Sieprawa"
   },
   {
-    "text": "Potrzebowaliśmy wymianę ościeżnic w starym domu. Wszystko omówione na miejscu w warsztacie. Spokojna współpraca od początku do końca.",
+    "text": "Zgłosiliśmy się do pana Pilcha przy wykonaniu parapetów. Detale są wykończone starannie. Współpraca przebiegła spokojnie od początku do końca.",
     "author": "— Zleceniodawca z Borzęty"
   },
   {
-    "text": "Szukaliśmy kogoś do schody drewniane — fragment — trafiliśmy dobrze. Detale wykończone starannie. Taką stolarnię warto mieć blisko.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Korzystaliśmy ze stolarni przy prace stolarskie na zamówienie. Kontakt spokojny, bez pośpiechu. Na pewno wrócę przy kolejnym zleceniu.",
-    "author": "— Zleceniodawca z Borzęty"
-  },
-  {
-    "text": "Szukaliśmy kogoś do elementy ze sklejki — trafiliśmy dobrze. Można zadzwonić i dopytać bez problemu. Spokojna współpraca od początku do końca.",
-    "author": "— Klientka z Borzęty"
-  },
-  {
-    "text": "Szukaliśmy kogoś do okna w domu jednorodzinnym — trafiliśmy dobrze. Detale wykończone starannie. Dla mnie sprawdzony fachowiec z okolicy.",
+    "text": "Zamawiałem u pana Pilcha opaski okienne. Termin został dotrzymany. Warto było poczekać na termin.",
     "author": "— Klient z Dębnego"
   },
   {
-    "text": "Zleciłem drzwi do szafy i jestem zadowolony. Widać, że robi to od lat. Taką stolarnię warto mieć blisko.",
+    "text": "Korzystaliśmy ze stolarni przy wykonaniu parapetów. Pan Pilch tłumaczy spokojnie, co i jak. Jestem zadowolony z efektu.",
+    "author": "— Klient z Dębnego"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy drobnych pracach stolarskich. Pan Pilch tłumaczy spokojnie, co i jak. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Zleceniodawca z Zarabia"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi parapety drewniane. Wszystko omówiliśmy na miejscu w warsztacie. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha drzwi wewnętrzne. Kontakt był spokojny i konkretny. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klientka z Głogoczowa"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie drzwi wewnętrzne. Widać wieloletnie doświadczenie. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z Borzęty"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha blat kuchenny z drewna. Można zadzwonić i dopytać bez problemu. Jestem zadowolony z efektu.",
+    "author": "— Klient z Sieprawa"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas drzwi balkonowe. Widać wieloletnie doświadczenie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klientka z okolic Myślenic"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi wymianę ościeżnic. Doradził przy doborze drewna. Jestem zadowolony z efektu.",
+    "author": "— Zleceniodawca z Zarabia"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha deski do krojenia. Widać wieloletnie doświadczenie. Jestem zadowolony z efektu.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie deski do krojenia. Można zadzwonić i dopytać bez problemu. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha zabudowę kuchenną. Wszystko omówiliśmy na miejscu w warsztacie. Polecam sąsiadom.",
+    "author": "— Klient z Sieprawa"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie okna drewniane. Kontakt był spokojny i konkretny. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi szafkę kuchenną z drewna. Wszystko omówiliśmy na miejscu w warsztacie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klient z Dębnego"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie elementy ze sklejki. Doradził przy doborze drewna. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi prace stolarskie na zamówienie. Wymiary były trafione za pierwszym razem. Na pewno wrócę przy kolejnym zleceniu.",
     "author": "— Zleceniodawca z Zawady"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha okna w kamienicy. Doradził przy doborze drewna. Polecam sąsiadom.",
+    "author": "— Zleceniodawca z Zawady"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wykonaniu parapetów. Bez pośpiechu, ale z sensem. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z Myślenic"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha deski do krojenia. Bez pośpiechu, ale z sensem. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy naprawie okien. Bez pośpiechu, ale z sensem. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Potrzebowaliśmy drzwi do szafy — pan Pilch poradził i zrobił solidnie. Wszystko omówiliśmy na miejscu w warsztacie. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Zleceniodawczyni z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha drobne wyroby drewniane. Detale są wykończone starannie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha szafkę kuchenną z drewna. Można zadzwonić i dopytać bez problemu. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klient z Dębnego"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie półki na wymiar. Termin został dotrzymany. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Klient z Słomczyna"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha okna w domu letniskowym. Bez pośpiechu, ale z sensem. Warto było poczekać na termin.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie moskitierę do okna drewnianego. Bez pośpiechu, ale z sensem. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha parapety drewniane. Można zadzwonić i dopytać bez problemu. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klient z Głogoczowa"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas stolarkę okienną. Widać wieloletnie doświadczenie. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z Głogoczowa"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas drzwi balkonowe. Można zadzwonić i dopytać bez problemu. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Głogoczowa"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy drobnych pracach stolarskich. Doradził przy doborze drewna. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Klientka z Borzęty"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy montażu drzwi. Można zadzwonić i dopytać bez problemu. Warto było poczekać na termin.",
+    "author": "— Klient z Tokarni"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha listwy i opaski. Cena była uczciwa jak na rozmowę. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Tokarni"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha drzwi do szafy. Termin został dotrzymany. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha okna drewniane. Termin został dotrzymany. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Klient z Głogoczowa"
+  },
+  {
+    "text": "Potrzebowaliśmy moskitierę do okna drewnianego — pan Pilch poradził i zrobił solidnie. Cena była uczciwa jak na rozmowę. Warto było poczekać na termin.",
+    "author": "— Klient z Dębnego"
+  },
+  {
+    "text": "Szukaliśmy fachowca do regulację skrzydła okna — trafiliśmy do pana Pilcha. Widać wieloletnie doświadczenie. Polecam sąsiadom.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha prace stolarskie na zamówienie. Detale są wykończone starannie. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klient z Głogoczowa"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie półki na wymiar. Bez pośpiechu, ale z sensem. Jestem zadowolony z efektu.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie parapety drewniane. Kontakt był spokojny i konkretny. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas listwy i opaski. Pan Pilch tłumaczy spokojnie, co i jak. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Zleceniodawczyni z Myślenic"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy wymianie ościeżnic. Kontakt był spokojny i konkretny. Warto było poczekać na termin.",
+    "author": "— Klient z Słomczyna"
+  },
+  {
+    "text": "Szukaliśmy fachowca do okna w domu jednorodzinnym — trafiliśmy do pana Pilcha. Doradził przy doborze drewna. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Klient z Głogoczowa"
+  },
+  {
+    "text": "Potrzebowaliśmy parapety drewniane — pan Pilch poradził i zrobił solidnie. Widać wieloletnie doświadczenie. Jestem zadowolony z efektu.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha parapety drewniane. Montaż przebiegł sprawnie. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi drzwi balkonowe. Wymiary były trafione za pierwszym razem. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Zleceniodawca z Pcimia"
+  },
+  {
+    "text": "Szukaliśmy fachowca do regulację skrzydła okna — trafiliśmy do pana Pilcha. Można zadzwonić i dopytać bez problemu. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klient z Tokarni"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wymianie okien drewnianych. Kontakt był spokojny i konkretny. Jestem zadowolony z efektu.",
+    "author": "— Zleceniodawca z Zawady"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas szafkę kuchenną z drewna. Doradził przy doborze drewna. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Zleceniodawca z Pcimia"
+  },
+  {
+    "text": "Szukaliśmy fachowca do moskitierę do okna drewnianego — trafiliśmy do pana Pilcha. Można zadzwonić i dopytać bez problemu. Jestem zadowolony z efektu.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie nowe skrzydło drzwiowe. Cena była uczciwa jak na rozmowę. Polecam sąsiadom.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha witrynę drewnianą. Kontakt był spokojny i konkretny. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy zleceniu na elementy ze sklejki. Wymiary były trafione za pierwszym razem. Jestem zadowolony z efektu.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy zleceniu na elementy ze sklejki. Detale są wykończone starannie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Zleceniodawca z Zawady"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy naprawie drzwi. Doradził przy doborze drewna. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klientka z okolic Myślenic"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha parapety drewniane. Można zadzwonić i dopytać bez problemu. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klientka z Borzęty"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha listwy i opaski. Cena była uczciwa jak na rozmowę. Jestem zadowolony z efektu.",
+    "author": "— Klientka z okolic Myślenic"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha okna drewniane. Można zadzwonić i dopytać bez problemu. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z Głogoczowa"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha zabudowę kuchenną. Montaż przebiegł sprawnie. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha nowe skrzydło drzwiowe. Montaż przebiegł sprawnie. Warto było poczekać na termin.",
+    "author": "— Zleceniodawca z Zawady"
+  },
+  {
+    "text": "Zamawiałem u pana Pilcha nowe skrzydło drzwiowe. Widać wieloletnie doświadczenie. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Zleceniodawca z Pcimia"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy zabudowie kuchennej. Termin został dotrzymany. Warto było poczekać na termin.",
+    "author": "— Klientka z okolic Myślenic"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wymianie okien drewnianych. Widać wieloletnie doświadczenie. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie blat kuchenny z drewna. Można zadzwonić i dopytać bez problemu. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Jawornika"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas stolarkę okienną. Doradził przy doborze drewna. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Myślenic"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy zleceniu na elementy ze sklejki. Wszystko omówiliśmy na miejscu w warsztacie. Warto było poczekać na termin.",
+    "author": "— Zleceniodawczyni z Myślenic"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha prace stolarskie na zamówienie. Widać wieloletnie doświadczenie. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klientka z okolic Myślenic"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas witrynę drewnianą. Wszystko omówiliśmy na miejscu w warsztacie. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas okna w kamienicy. Wszystko omówiliśmy na miejscu w warsztacie. Warto było poczekać na termin.",
+    "author": "— Klientka z Myślenic"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy zabudowie kuchennej. Można zadzwonić i dopytać bez problemu. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klient z Sieprawa"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi wymianę ościeżnic. Cena była uczciwa jak na rozmowę. Na pewno wrócę przy kolejnym zleceniu.",
+    "author": "— Zleceniodawca z Zarabia"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wykonaniu parapetów. Termin został dotrzymany. Jestem zadowolony z efektu.",
+    "author": "— Klientka z Borzęty"
+  },
+  {
+    "text": "Zleciliśmy panu Pilchowi półki na wymiar. Można zadzwonić i dopytać bez problemu. Warto było poczekać na termin.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Zgłosiliśmy się do pana Pilcha przy drobnych pracach stolarskich. Cena była uczciwa jak na rozmowę. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Słomczyna"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy zleceniu na elementy ze sklejki. Cena była uczciwa jak na rozmowę. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klientka z Głogoczowa"
+  },
+  {
+    "text": "Zamawialiśmy u pana Pilcha okna w domu letniskowym. Pan Pilch tłumaczy spokojnie, co i jak. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie okna w domu jednorodzinnym. Cena była uczciwa jak na rozmowę. Jestem zadowolony z efektu.",
+    "author": "— Klient z Dębnego"
+  },
+  {
+    "text": "Potrzebowaliśmy okna w kamienicy — pan Pilch poradził i zrobił solidnie. Termin został dotrzymany. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Korzystaliśmy ze stolarni przy wykonaniu desek do krojenia. Termin został dotrzymany. Współpraca przebiegła spokojnie od początku do końca.",
+    "author": "— Klientka z Raciechowic"
+  },
+  {
+    "text": "Potrzebowaliśmy regulację skrzydła okna — pan Pilch poradził i zrobił solidnie. Cena była uczciwa jak na rozmowę. Dobrze mieć taką stolarnię blisko domu.",
+    "author": "— Klient z Trzebuni"
+  },
+  {
+    "text": "Polecili nam pana Pilcha w sprawie witrynę drewnianą. Bez pośpiechu, ale z sensem. Bez przesady w obietnicach — po prostu dobra robota.",
+    "author": "— Zleceniodawca z Borzęty"
+  },
+  {
+    "text": "Pan Pilch wykonał u nas drzwi drewniane. Montaż przebiegł sprawnie. Dla mnie to sprawdzony fachowiec z okolicy.",
+    "author": "— Klient z Myślenic"
   }
 ];
