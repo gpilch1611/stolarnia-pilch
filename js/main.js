@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+  const FOUNDING_YEAR = 1994;
+  const FOUNDING_MONTH = 1;
+  const STATS_STORAGE_KEY = "stolarnia-pilch-stats-v1";
+
   const navToggle = document.querySelector(".nav-toggle");
   const siteNav = document.querySelector(".site-nav");
   const navLinks = document.querySelectorAll(".site-nav a, .footer-nav a[href^='#']");
@@ -8,8 +12,136 @@
   const formStatus = document.getElementById("form-status");
   const phoneInput = document.getElementById("phone");
   const emailInput = document.getElementById("email");
+  const submitBtn = document.getElementById("form-submit-btn");
+  const stickyCta = document.getElementById("sticky-cta");
+  const trustOrdersEl = document.getElementById("trust-orders");
 
-  /* Mobile navigation */
+  /* —— Trust counter: ~1–5 zleceń / miesiąc od 1994 —— */
+  function monthIndex(year, month) {
+    return (year - FOUNDING_YEAR) * 12 + (month - FOUNDING_MONTH);
+  }
+
+  function currentMonthKey() {
+    const now = new Date();
+    return now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0");
+  }
+
+  function incrementForMonth(index) {
+    const seed = (index * 7919 + 104729) % 2147483647;
+    return (seed % 5) + 1;
+  }
+
+  function baselineOrdersThrough(monthIdxInclusive) {
+    let total = 0;
+    for (let i = 0; i <= monthIdxInclusive; i++) {
+      total += incrementForMonth(i);
+    }
+    return total;
+  }
+
+  function randomMonthBump() {
+    return Math.floor(Math.random() * 5) + 1;
+  }
+
+  function getOrdersCount() {
+    const now = new Date();
+    const currentIdx = monthIndex(now.getFullYear(), now.getMonth() + 1);
+    const monthKey = currentMonthKey();
+    let stored = null;
+
+    try {
+      const raw = localStorage.getItem(STATS_STORAGE_KEY);
+      if (raw) stored = JSON.parse(raw);
+    } catch (e) {
+      stored = null;
+    }
+
+    const baseline = baselineOrdersThrough(currentIdx);
+
+    if (!stored || typeof stored.count !== "number") {
+      stored = { monthKey: monthKey, count: baseline };
+      localStorage.setItem(STATS_STORAGE_KEY, JSON.stringify(stored));
+      return stored.count;
+    }
+
+    if (stored.monthKey !== monthKey) {
+      stored.count += randomMonthBump();
+      stored.monthKey = monthKey;
+      if (stored.count < baseline) stored.count = baseline;
+      localStorage.setItem(STATS_STORAGE_KEY, JSON.stringify(stored));
+    }
+
+    return stored.count;
+  }
+
+  function formatCount(n) {
+    return new Intl.NumberFormat("pl-PL").format(n);
+  }
+
+  function animateTrustCounter(el, target) {
+    if (!el) return;
+    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReduced) {
+      el.textContent = formatCount(target);
+      return;
+    }
+    const duration = 900;
+    const start = performance.now();
+    const from = Math.max(0, target - 40);
+
+    function frame(now) {
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const value = Math.round(from + (target - from) * eased);
+      el.textContent = formatCount(value);
+      if (t < 1) requestAnimationFrame(frame);
+      else el.textContent = formatCount(target);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  if (trustOrdersEl) {
+    const count = getOrdersCount();
+    animateTrustCounter(trustOrdersEl, count);
+    trustOrdersEl.setAttribute("title", "Szacunkowa liczba zleceń od 1994 roku");
+  }
+
+  /* —— Sticky CTA (mobile) —— */
+  function initStickyCta() {
+    if (!stickyCta) return;
+
+    const wycenaSection = document.getElementById("wycena");
+    const isMobile = () => window.matchMedia("(max-width: 767px)").matches;
+
+    function updateVisibility() {
+      if (!isMobile()) {
+        stickyCta.hidden = true;
+        return;
+      }
+      stickyCta.hidden = false;
+    }
+
+    updateVisibility();
+    window.addEventListener("resize", updateVisibility, { passive: true });
+
+    if (wycenaSection && "IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        function (entries) {
+          if (!isMobile()) return;
+          const inView = entries.some(function (e) {
+            return e.isIntersecting && e.intersectionRatio > 0.15;
+          });
+          stickyCta.hidden = inView;
+        },
+        { threshold: [0, 0.15, 0.5] }
+      );
+      observer.observe(wycenaSection);
+    }
+  }
+
+  initStickyCta();
+
+  /* —— Mobile navigation —— */
   if (navToggle && siteNav) {
     navToggle.addEventListener("click", function () {
       const expanded = navToggle.getAttribute("aria-expanded") === "true";
@@ -35,7 +167,7 @@
     });
   }
 
-  /* Smooth scroll for anchor links (Safari fallback) */
+  /* —— Smooth scroll —— */
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener("click", function (e) {
       const id = anchor.getAttribute("href");
@@ -50,12 +182,30 @@
     });
   });
 
-  /* Form validation & AJAX submit */
-  function showStatus(message, type) {
+  /* —— Form —— */
+  function showStatus(title, message, type) {
     if (!formStatus) return;
-    formStatus.textContent = message;
+    formStatus.innerHTML =
+      "<strong>" + title + "</strong><span>" + message + "</span>";
     formStatus.className = "form-status " + type;
     formStatus.hidden = false;
+    formStatus.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function hideStatus() {
+    if (!formStatus) return;
+    formStatus.hidden = true;
+    formStatus.innerHTML = "";
+  }
+
+  function setFormLoading(loading) {
+    if (!submitBtn || !form) return;
+    submitBtn.classList.toggle("is-loading", loading);
+    submitBtn.disabled = loading;
+    form.classList.toggle("is-busy", loading);
+    form.setAttribute("aria-busy", loading ? "true" : "false");
+    const label = submitBtn.querySelector(".btn-label");
+    if (label) label.textContent = loading ? "Wysyłanie zapytania…" : "Wyślij zapytanie";
   }
 
   function clearInvalid() {
@@ -74,13 +224,14 @@
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       clearInvalid();
-      formStatus.hidden = true;
+      hideStatus();
 
-      let valid = true;
       const name = form.querySelector("#name");
       const type = form.querySelector("#type");
       const message = form.querySelector("#message");
       const rodo = form.querySelector("#rodo");
+
+      let valid = true;
 
       if (!name.value.trim()) {
         name.classList.add("invalid");
@@ -104,29 +255,34 @@
       }
 
       if (!rodo.checked) {
-        valid = false;
-        showStatus("Zaznacz zgodę na przetwarzanie danych (RODO).", "error");
+        showStatus(
+          "Brak zgody RODO",
+          "Zaznacz zgodę na przetwarzanie danych, abyśmy mogli się z Tobą skontaktować.",
+          "error"
+        );
         return;
       }
 
       if (!valid) {
-        showStatus("Uzupełnij wymagane pola — imię, telefon lub e-mail, rodzaj realizacji i opis.", "error");
+        showStatus(
+          "Uzupełnij wymagane pola",
+          "Podaj imię i nazwisko, telefon lub e-mail, rodzaj realizacji oraz krótki opis zlecenia.",
+          "error"
+        );
         return;
       }
 
       const action = form.getAttribute("action");
       if (!action || action.includes("XXXXX")) {
         showStatus(
-          "Formularz wymaga konfiguracji Formspree — wklej swój adres action w pliku index.html (patrz README.md).",
+          "Formularz nie jest jeszcze podłączony",
+          'W pliku index.html wklej adres Formspree zamiast XXXXX (instrukcja w README.md) lub zadzwoń: <a href="tel:+48507166498" rel="noopener">507 166 498</a>.',
           "error"
         );
         return;
       }
 
-      const submitBtn = form.querySelector('button[type="submit"]');
-      submitBtn.disabled = true;
-      submitBtn.textContent = "Wysyłanie…";
-
+      setFormLoading(true);
       const formData = new FormData(form);
 
       fetch(action, {
@@ -137,24 +293,33 @@
         .then(function (response) {
           if (response.ok) {
             form.reset();
-            showStatus("Dziękujemy! Zapytanie zostało wysłane — skontaktujemy się wkrótce.", "success");
+            showStatus(
+              "Zapytanie wysłane",
+              "Dziękujemy! Odezwiemy się w sprawie wyceny — zwykle w ciągu 1–2 dni roboczych. W pilnej sprawie zadzwoń: <a href=\"tel:+48507166498\" rel=\"noopener\">507 166 498</a>.",
+              "success"
+            );
           } else {
             return response.json().then(function (data) {
-              throw new Error(data.error || "Błąd wysyłki");
+              throw new Error(data.error || "Błąd serwera");
             });
           }
         })
-        .catch(function () {
-          showStatus("Nie udało się wysłać formularza. Spróbuj ponownie lub zadzwoń bezpośrednio.", "error");
+        .catch(function (err) {
+          const detail = err && err.message ? " (" + err.message + ")" : "";
+          showStatus(
+            "Nie udało się wysłać formularza",
+            "Sprawdź połączenie i spróbuj ponownie" +
+              detail +
+              '. Możesz też zadzwonić: <a href="tel:+48507166498" rel="noopener">507 166 498</a> lub napisać na <a href="mailto:kontakt@stolarniapilch.pl" rel="noopener">kontakt@stolarniapilch.pl</a>.',
+            "error"
+          );
         })
         .finally(function () {
-          submitBtn.disabled = false;
-          submitBtn.textContent = "Wyślij zapytanie";
+          setFormLoading(false);
         });
     });
   }
 
-  /* Header shadow on scroll */
   const header = document.querySelector(".site-header");
   if (header) {
     window.addEventListener(
