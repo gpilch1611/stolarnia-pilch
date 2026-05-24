@@ -347,28 +347,21 @@
       <div class="container">
         <div class="section-header">
           <h2 id="reviews-heading">Opinie klientów</h2>
-          <p class="section-lead">Słowa osób z okolic Myślenic i Borzęty.</p>
+          <p class="section-lead">Ponad 100 opinii z okolic Myślenic i Borzęty — przy każdym wejściu w innej kolejności.</p>
         </div>
-        <div class="reviews-grid">
-          <blockquote class="review-card">
-            <p>„Wymienialiśmy okna w domu jednorodzinnym. Pan Pilch doradził przy doborze drewna, wszystko dogadał na miejscu. Okna stoją już trzeci sezon — bez problemów.”</p>
-            <footer>
-              <cite>— Klient z okolic Myślenic</cite>
-            </footer>
-          </blockquote>
-          <blockquote class="review-card">
-            <p>„Potrzebowałam drzwi do starej szafy i nowej zabudowy w kuchni. Zrobił dokładnie tak, jak ustaliliśmy, bez zbędnego gadania. Polecam sąsiadkom.”</p>
-            <footer>
-              <cite>— Zleceniodawczyni z Borzęty</cite>
-            </footer>
-          </blockquote>
-          <blockquote class="review-card">
-            <p>„Zamawiałem trzy deski do krojenia na prezent. Solidne, ładnie wykończone. Kontakt bezproblemowy, termin dotrzymany.”</p>
-            <footer>
-              <cite>— Klient z Myślenic</cite>
-            </footer>
-          </blockquote>
+        <div class="reviews-carousel" id="reviews-carousel">
+          <button type="button" class="reviews-nav reviews-nav--prev" id="reviews-prev" aria-label="Poprzednie opinie" aria-controls="reviews-track">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <div class="reviews-viewport">
+            <div class="reviews-track" id="reviews-track" role="list"></div>
+          </div>
+          <button type="button" class="reviews-nav reviews-nav--next" id="reviews-next" aria-label="Następne opinie" aria-controls="reviews-track">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M9 6l6 6-6 6"/></svg>
+          </button>
         </div>
+        <p class="reviews-meta" id="reviews-meta" aria-live="polite"></p>
+        <p class="reviews-disclaimer">Opinie mają charakter przykładowy i odzwierciedlają typowe zlecenia w okolicy.</p>
       </div>
     </section>
 
@@ -499,6 +492,7 @@
     <a href="tel:+48507166498" class="sticky-cta-phone" rel="noopener">Zadzwoń</a>
   </aside>
 
+  <script src="js/reviews-data.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

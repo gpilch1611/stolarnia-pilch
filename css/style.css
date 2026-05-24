@@ -622,24 +622,45 @@ ul {
   font-size: 0.98rem;
 }
 
-/* Reviews */
+/* Reviews carousel */
 .section-reviews {
   background: var(--beige);
 }
 
-.reviews-grid {
+.reviews-carousel {
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.reviews-viewport {
+  overflow: hidden;
+  min-width: 0;
+}
+
+.reviews-track {
+  display: flex;
+  gap: 1.25rem;
+  transition: transform 0.35s ease;
+  will-change: transform;
+}
+
+.reviews-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  list-style: none;
 }
 
 .review-card {
   margin: 0;
+  height: 100%;
   padding: 1.75rem;
   background: var(--white);
   border-radius: var(--radius-lg);
   border: 1px solid var(--beige-dark);
   box-shadow: var(--shadow);
+  box-sizing: border-box;
 }
 
 .review-card p {
@@ -652,6 +673,70 @@ ul {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--wood);
+}
+
+.reviews-nav {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--beige-dark);
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--wood);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.reviews-nav:hover:not(:disabled) {
+  background: var(--wood);
+  color: var(--white);
+  border-color: var(--wood);
+}
+
+.reviews-nav:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.reviews-meta {
+  text-align: center;
+  margin: 1.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--graphite-soft);
+}
+
+.reviews-disclaimer {
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+  color: var(--graphite-soft);
+  text-align: center;
+  opacity: 0.85;
+}
+
+.reviews-disclaimer code {
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .reviews-slide {
+    flex: 0 0 calc((100% - 2.5rem) / 3);
+  }
+
+  .reviews-track {
+    gap: 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reviews-track {
+    transition: none;
+  }
 }
 
 /* Quote form */

@@ -16,6 +16,142 @@
   const stickyCta = document.getElementById("sticky-cta");
   const trustOrdersEl = document.getElementById("trust-orders");
 
+  /* —— Opinie: karuzela 100+, losowa kolejność —— */
+  function shuffleArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = a[i];
+      a[i] = a[j];
+      a[j] = tmp;
+    }
+    return a;
+  }
+
+  function initReviewsCarousel() {
+    const track = document.getElementById("reviews-track");
+    const prevBtn = document.getElementById("reviews-prev");
+    const nextBtn = document.getElementById("reviews-next");
+    const meta = document.getElementById("reviews-meta");
+    const source = window.STOLARNIA_REVIEWS;
+
+    if (!track || !source || !source.length) return;
+
+    const reviews = shuffleArray(source);
+    let pageIndex = 0;
+
+    function perPage() {
+      return window.matchMedia("(min-width: 768px)").matches ? 3 : 1;
+    }
+
+    function pageCount() {
+      return Math.ceil(reviews.length / perPage());
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    track.innerHTML = reviews
+      .map(function (r) {
+        return (
+          '<div class="reviews-slide" role="listitem">' +
+          '<blockquote class="review-card">' +
+          "<p>„" +
+          escapeHtml(r.text) +
+          "”</p>" +
+          "<footer><cite>" +
+          escapeHtml(r.author) +
+          "</cite></footer>" +
+          "</blockquote></div>"
+        );
+      })
+      .join("");
+
+    function update() {
+      const pp = perPage();
+      const pages = pageCount();
+      if (pageIndex >= pages) pageIndex = 0;
+      if (pageIndex < 0) pageIndex = pages - 1;
+
+      const slide = track.children[0];
+      if (!slide) return;
+
+      const gap = parseFloat(getComputedStyle(track).gap) || 20;
+      const slideWidth = slide.offsetWidth + gap;
+      track.style.transform = "translateX(-" + pageIndex * slideWidth * pp + "px)";
+
+      if (meta) {
+        const from = pageIndex * pp + 1;
+        const to = Math.min((pageIndex + 1) * pp, reviews.length);
+        meta.textContent =
+          "Opinie " +
+          from +
+          "–" +
+          to +
+          " z " +
+          reviews.length +
+          " · strona " +
+          (pageIndex + 1) +
+          "/" +
+          pages;
+      }
+
+      if (prevBtn) prevBtn.disabled = false;
+      if (nextBtn) nextBtn.disabled = false;
+    }
+
+    function go(delta) {
+      pageIndex += delta;
+      const pages = pageCount();
+      if (pageIndex >= pages) pageIndex = 0;
+      if (pageIndex < 0) pageIndex = pages - 1;
+      update();
+    }
+
+    if (prevBtn) prevBtn.addEventListener("click", function () {
+      go(-1);
+    });
+    if (nextBtn) nextBtn.addEventListener("click", function () {
+      go(1);
+    });
+
+    let resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function () {
+        pageIndex = 0;
+        update();
+      }, 150);
+    });
+
+    document.addEventListener("keydown", function (e) {
+      const carousel = document.getElementById("reviews-carousel");
+      if (!carousel) return;
+      const rect = carousel.getBoundingClientRect();
+      const inView = rect.top < window.innerHeight && rect.bottom > 0;
+      if (!inView) return;
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        go(-1);
+      }
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        go(1);
+      }
+    });
+
+    update();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initReviewsCarousel);
+  } else {
+    initReviewsCarousel();
+  }
+
   /* —— Trust counter: ~1–5 zleceń / miesiąc od 1994 —— */
   function monthIndex(year, month) {
     return (year - FOUNDING_YEAR) * 12 + (month - FOUNDING_MONTH);
